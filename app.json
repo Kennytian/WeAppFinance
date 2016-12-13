@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/record/index",
+    "pages/record/item/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundColor": "#fff",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2297f1",
+    "navigationBarTitleText": "微信小账本",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/record/index",
+        "text": "记账"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "wx.request": 100000,
+    "wx.connectSocket": 100000,
+    "wx.uploadFile": 100000,
+    "wx.downloadFile": 100000
+  },
+  "debug": true
+}
